@@ -7,7 +7,7 @@ import {
     updateTicketStatusController,
     getTicketByIdController,
     deleteTicketController
-} from "../controllers/ticketController.js";
+} from "../controllers/ticketcontroller.js";
 import { authenticate } from "../middleware/authMiddleware.js";
 import { authorizeRoles } from "../middleware/roleMiddleware.js";
 
