@@ -1,4 +1,4 @@
-import { createTicket } from "../models/ticketModel.js";
+import { createTicket } from "../models/ticketmodel.js";
 import {
     getAllTickets,
     assignTicket,
