@@ -5,9 +5,9 @@ import morgan from "morgan";
 import rateLimit from "express-rate-limit";
 import dotenv from "dotenv";
 import "./config/db.js";
-import authRoutes from "./routes/authRoutes.js";
-import { authenticate } from "./middleware/authMiddleware.js";
-import ticketRoutes from "./routes/ticketRoutes.js";
+import authRoutes from "./routes/authroutes.js";
+import { authenticate } from "./middleware/authmiddleware.js";
+import ticketRoutes from "./routes/ticketroutes.js";
 import swaggerUi from "swagger-ui-express";
 import swaggerSpec from "./swagger.js";
 
