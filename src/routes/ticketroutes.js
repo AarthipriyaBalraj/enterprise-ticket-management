@@ -8,8 +8,8 @@ import {
     getTicketByIdController,
     deleteTicketController
 } from "../controllers/ticketcontroller.js";
-import { authenticate } from "../middleware/authMiddleware.js";
-import { authorizeRoles } from "../middleware/roleMiddleware.js";
+import { authenticate } from "../middleware/authmiddleware.js";
+import { authorizeRoles } from "../middleware/rolemiddleware.js";
 
 const router = express.Router();
 
