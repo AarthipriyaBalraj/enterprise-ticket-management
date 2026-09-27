@@ -75,3 +75,12 @@ enterprise-ticket-management/
 ├── package-lock.json
 ├── .gitignore
 └── README.md
+
+
+## Live Deployment
+
+### API
+https://enterprise-ticket-management-1.onrender.com
+
+### Swagger API Documentation
+https://enterprise-ticket-management-1.onrender.com/api-docs/
